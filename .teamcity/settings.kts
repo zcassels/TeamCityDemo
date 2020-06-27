@@ -62,7 +62,7 @@ object Build : BuildType({
         }
         script {
             name = "NPM"
-            scriptContent = "npm pack"
+            scriptContent = "npm whoops"
             dockerImagePlatform = ScriptBuildStep.ImagePlatform.Linux
             dockerImage = "node"
         }
